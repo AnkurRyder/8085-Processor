@@ -36,7 +36,7 @@ Register file get updated by new value in fifth clock cycle.
 
 First four MSB’s are for op-codes and the last ones for register address inside the register file.  
 For STA, JMP and LDA 8 – bit memory address is to be given in the memory block next to the instruction.  
-> Example  
+> Example
 -ADD R0 R1 :-  0000 00 01
 -LDA  R1 M :-  1010 01 00 M (8 - bit)
 -STA R1 M  :-  1000 00 01 M (8 - bit)  Exception (register address is in last 2 bits)  
