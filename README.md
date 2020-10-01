@@ -6,7 +6,7 @@
 This is an 8-bit RISC type Processor.  
 Completes each operation in 5 clock cycles.  
 It contains 4 temporary registers (register file).  
-The memory size is 256 x 8 bit. Instructions and memory data goes by same address.  
+The memory size is 65,536 x 8 bit. Instructions and memory data goes by same address.  
 
 ## WORKING THEORY
 
